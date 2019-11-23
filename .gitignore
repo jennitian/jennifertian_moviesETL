@@ -1,4 +1,4 @@
-#ignore API key
+#ignore pg key
 config.py
 
 # Byte-compiled / optimized / DLL files
