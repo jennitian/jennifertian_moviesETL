@@ -197,6 +197,6 @@ def etl(wiki_data, kaggle, rating):
 
         # add elapsed time to final print out
         print(f'Done. {time.time() - start_time} total seconds elapsed')
-    return wiki_data, len(movies_df), len(movies_with_ratings_df)
+    return wiki_data, movies_df, movies_with_ratings_df
  
 print(etl(wiki_movies_df, kaggle_metadata, ratings))
